@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+  color: #333;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
+
+.header h1 {
+  margin-bottom: 5px;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.controls input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Profile */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.profile h3 {
+  font-size: 18px;
+}
+
+/* Info */
+.info p {
+  font-size: 13px;
+  margin: 3px 0;
+}
+
+/* Tags */
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background: #eef2ff;
+  color: #333;
+  padding: 4px 8px;
+  margin: 3px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* Loader */
+.loader {
+  text-align: center;
+  padding: 20px;
+  display: none;
+}
